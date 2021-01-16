@@ -39,3 +39,30 @@
     margin-right: auto;
     margin-top:1vw;
 }
+
+#countryContainer {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#countryHeader {
+    text-align: center;
+    font-size: 5vw;
+}
+
+#countryInfo {
+    margin-bottom: 15vw;
+}
+
+#countryName {
+    text-align: center;
+    font-size: 3vw;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.visible {
+    visibility: visible;
+}
